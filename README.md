@@ -13,4 +13,5 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 
 A connected graph is graph in which there is a path between every pair of vertices and there are no isolated vertices.<br>
 Isopmorphism is concerned with a mapping of each vertex/edge in one graph to each vertex/edge in another graph. <br>
-Therefor as long is there is an isolated node(s) in one graph and there exists corresponding isolated nodes in the second graph, then they are isomorphic and unconnected.
+Because isomorphism is only concerned with this corresponding mapping of edge/vertices, it does not require connectivity. As long as there is a one to one correspondence between edge and vertices in the graphs,
+then they are isomorphic, even if certain nodes or sections are isolated.
