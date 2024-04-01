@@ -19,10 +19,12 @@ $B | A$<br>
 $C | D$<br>
 $D | C$<br>
 <br>
-Consider the graph $G_2$:
+Consider the graph $G_2$:<br>
 $V$  $E$<br>
 $W | X$<br>
 $X | W$<br>
 $Y | Z$<br>
-$Z | CY$<br>
+$Z | Y$<br>
 <br>
+The above definition holds true for these graphs because there exists a one to one correspondence between every node and every edge.<br>
+The graphs however are not connected because there is no edge from the $A$ / $B$ nodes to the $C$ / $D$ nodes in $G_1$, and there is no edge from the $W$ / $X$ nodes to the $Y$ / $Z$ nodes in $G_2$.
