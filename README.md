@@ -13,7 +13,8 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 
 Consider graph $G_1$:
 <br>
-$A | B$
-$B | A$
-$C | D$
-$D | C$
+$V$  $E$<br>
+$A | B$<br>
+$B | A$<br>
+$C | D$<br>
+$D | C$<br>
