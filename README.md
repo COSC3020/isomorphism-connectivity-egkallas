@@ -36,9 +36,8 @@ This prooves every node in $G_1$ can be mapped to a unique node in $G_2$.
 
 Lemma: Edge correspondence ($(u,v)
 \in E_1$ iff $(f(u),f(v)) \in E_2$)<br>
-
-$(A, B) \in E_1 \rightarrow (W, X) \ E_2$<br>
-$(C, D) \in E_1 \rightarrow (Y, Z) \ E_2$<br>
+$(A, B) \in E_1 \rightarrow (W, X) \in E_2$<br>
+$(C, D) \in E_1 \rightarrow (Y, Z) \in E_2$<br>
 This prooves that for every edge $(u,v)$ in $G_1$ there is a corresponding edge $(f(u),f(v))$ in $G_2$.<br>
 $\therefore G_1$ and $G_2$ are isomorphic.<br>
 
