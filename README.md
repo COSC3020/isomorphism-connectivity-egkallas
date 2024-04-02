@@ -26,6 +26,21 @@ $X | W$<br>
 $Y | Z$<br>
 $Z | Y$<br>
 <br>
-The above definition holds true for these graphs because there is a bijective correspondence between every node and every edge.<br>
+
+Lemma: Bijectivity ($V_1 \rightarrow V_2$)<br>
+$f(A) = W$<br>
+$f(B) = X$<br>
+$f(C) = Y$<br>
+$f(D) = Z$<br>
+This prooves every node in $G_1$ can be mapped to a unique node in $G_2$.
+
+Lemma: Edge correspondence ($(u,v)
+\in E_1$ iff $(f(u),f(v)) \in E_2$)<br>
+
+$(A, B) \in E_1 \rightarrow (W, X) \ E_2$<br>
+$(C, D) \in E_1 \rightarrow (Y, Z) \ E_2$<br>
+This prooves that for every edge $(u,v)$ in $G_1$ there is a corresponding edge $(f(u),f(v))$ in $G_2$.<br>
+$\therefore G_1$ and $G_2$ are isomorphic.<br>
+
 The graphs however are not connected because there is no edge from the $A$ / $B$ nodes to the $C$ / $D$ nodes in $G_1$, and there is no edge from the $W$ / $X$ nodes to the $Y$ / $Z$ nodes in $G_2$.<br>
 $QED$
